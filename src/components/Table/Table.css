@@ -1,0 +1,46 @@
+.table-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  min-width: 700px;
+
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.user-head {
+  background-color: rgb(240, 238, 238);
+}
+
+.table-header {
+  position: sticky;
+  top: 0;
+  background: rgb(240, 238, 238);
+
+  padding: 14px 18px;
+  text-align: center;
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+.sort-btn {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  color: #374151;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sort-btn:hover {
+  opacity: 0.8;
+}
