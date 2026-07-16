@@ -1,16 +1,83 @@
-# React + Vite
+# 📊 Interactive User Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive user management table built with **React**. Users can search, sort, select multiple rows, delete selected users, and mark selected users as complete. All data is locally generated without using any external APIs or table libraries.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔍 Real-time search by user name
+* ↕️ Sort by:
 
-## React Compiler
+  * Name
+  * Email
+  * Status
+  * Age
+* ☑️ Select multiple users
+* 🗑️ Delete selected users
+* ✅ Mark selected users as **Complete**
+* 📌 Sticky table header
+* 📱 Responsive design with horizontal scrolling on small screens
+* ⚡ Built with pure React and CSS (no external table libraries)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (ES6+)
+* CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+src
+│── components
+│   ├── SearchBar
+│   ├── Table
+│   └── TableRow
+│
+│── data
+│   └── users.js
+│
+│── App.jsx
+│── App.css
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/severabdullayeva/interactive-user-table
+```
+
+Navigate to the project folder:
+
+```bash
+cd interactive-user-table
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## 📸 Preview
+
+*Add a screenshot of the project here.*
+
+## 📌 Notes
+
+* This project uses locally generated user data.
+* No backend or external API is required.
+* The table functionality is implemented manually without third-party table libraries.
+
+## 👩‍💻 Author
+
+**Sevər Abdullayeva**
+
+GitHub: https://github.com/severabdullayeva
