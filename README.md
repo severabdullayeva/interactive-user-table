@@ -66,10 +66,6 @@ Run the development server:
 npm run dev
 ```
 
-## 📸 Preview
-
-*Add a screenshot of the project here.*
-
 ## 📌 Notes
 
 * This project uses locally generated user data.
